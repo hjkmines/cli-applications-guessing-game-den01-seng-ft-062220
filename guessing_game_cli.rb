@@ -12,7 +12,7 @@ def run_guessing_game
    p "Sorry! The computer guessed #{random_number}."
  end 
  
- if input.to_s == 'exit'
+ if input == 'exit'
    p "Goodbye!"
  end 
  
