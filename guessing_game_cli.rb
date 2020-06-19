@@ -6,6 +6,13 @@ def run_guessing_game
  
  input = gets.chomp.to_s
  
+ if input == "exit"
+   p "Goodbye!"
+ elsif 
+ 
+ 
+ 
+ 
  if input.to_i == random_number
    p "You guessed the correct number!"
  elsif input.to_i != random_number
